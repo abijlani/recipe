@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
+@start
 @interface AddRecipeController : UIViewController  {
 	
 	UITextField* nameTextField;
@@ -25,4 +25,4 @@
 
 - (void) dismissKeyboard;
 
-@end
+@finish
